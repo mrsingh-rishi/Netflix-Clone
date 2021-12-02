@@ -1,0 +1,355 @@
+.top{
+    margin: 2%;
+}
+.a-tag{
+  width: 20%;  
+}
+.in-top{
+    width: 60%;
+    padding-top: 150px;
+    margin-left: 25%;
+    text-align: center;
+}
+h1,h2,h3,h4,p{
+    color: white;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.top-cont{
+    margin:0;
+    height: 700px;
+    padding-right: 90px;
+}
+.main-cont{
+    position: absolute;
+    width: 100%;
+    opacity:0.55;
+    background-image: url(./images/Heres\ How\ Download\ and\ Watch\ Netflix\ Offline.jpg);
+    background-image: -webkit-repeating-linear-gradient(none);
+    z-index: -1;
+    height: 715px;
+}
+.get-btn{
+    width: 30%;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+}
+.headings{
+    font-size: 4.5rem;
+}
+body{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 0;
+}
+.btn-danger{
+    background-color: rgb(219, 24, 24);
+}
+.msg{
+    text-align: left;
+    margin-left: 5%;
+}
+.msg-wrong{
+    text-align: left;
+    margin-left: 5%;
+    color: red;
+}
+input{
+    width: 30%;
+    height: 45%;
+}
+hr{
+    border-top: 12px solid grey;
+}
+.features{ margin: 0;
+    text-align: center;
+}
+.imgg-right{
+    width: 40%;
+    float: right;
+}
+.imgg-left{
+    width: 40%;
+    float: left;
+    
+}
+.features-row{
+    width: 60%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    margin-top: 100px;
+    height: 300px;
+}
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+.features-row h1{
+    font-size: 2.7rem;
+    margin-bottom: 6%;
+}
+.features-row p{
+    font-size: 1.2rem;
+}
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
+}
+.top-sign{
+    background-image: url(./images/Heres\ How\ Download\ and\ Watch\ Netflix\ Offline.jpg);
+    opacity: 0.7;
+    width: 100%;
+    position: absolute;
+    height: 800px;
+    z-index: -2;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+.sign-intop{
+    image-rendering: none;
+    padding-top: 40px;
+    padding-left: 20px; padding-bottom: 600px;
+}
+.head{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    
+}
+.my{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+::placeholder{
+    font-weight:100;
+    color:grey;
+}
+.inn{
+    color:white;
+    background-color: rgb(85, 84, 84);
+    border: none;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sign-row{
+    line-height: 1.5rem;
+    text-align: left;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 680px;
+    padding-bottom: 200px;
+    line-height: 20px;
+    
+}
+.ema{
+    width: 60%;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.back{
+    height: 600px;
+    width: 25%;
+    opacity: 0.7;
+    position: absolute;
+    background-color: black;
+    top: 100px;
+    left: 700px;
+    z-index: -1;
+}
+.check{
+    margin-left: -40px;
+}
+label{
+    margin-left: -40px;
+    color: white;
+}
+.cent{
+    z-index: 2;
+   
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.abb{
+    height: 800px;
+}
+
+#foot{
+    height: 250px;
+}
+.foot-p{
+    text-align: center;
+}
+
+
+
+/* mobile site*/
+
+@media (max-width: 1028px){
+    .navbar{
+        z-index: 2;
+    }
+    .main-cont{
+        opacity: 0.4;
+        width: 100%;
+        height: 600px;
+    }
+    .top-cont{
+        height: 600px;
+    }
+    .top{
+        margin-right: 40%;
+        width: 100%;
+        height: 5%;
+    }
+    .headings{
+        font-size: 2.5rem;
+    }
+    .a-tag{
+        width: 200px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .in-top{
+        position: absolute;
+        top: 3%;
+        margin-top: 0px;
+        height: 500px;
+        width: 90%;
+        padding-left: 7.5%;
+        margin: auto;
+    }
+    .ema{
+        width: 100%;
+    }
+    /* Mobile-Site Features List*/
+    .get-btn{
+        width: 100%;
+        padding: 16px;
+    }
+    .features-row{
+        text-align: center;
+        width: 80%;
+        height:5% ;
+        padding-bottom: auto;
+    }
+    .imgg-right,.imgg-left{
+        float: none;
+        margin-top: 0;
+        margin-bottom: 3%;
+        width: 70%;
+    }
+    #child{
+        height: 5%;
+    }
+    .footer{
+        width: 90%;
+        margin: auto;
+    }
+    ul{
+        width: 50%;
+    }
+    .btn-sign{
+        width: 25%;
+        height: 45px;
+        position: absolute;
+        left: 100%;
+        top: 5%;
+        z-index: 2;
+        
+    }
+    .footer{
+        width: 90%;
+    }
+    .foot-p{
+        text-align: center;
+    }
+    /* Sign In page*/
+    .top-sign{
+        background-image: none;
+    }
+    #mob-a{
+        margin-left: 2%;
+        margin-top: 1%;
+        width: 40%;
+    }
+    .sign-intop{
+        margin-top: 2%;
+        padding: 0;
+        width: 100%;
+    }
+    .inn{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .abb{
+        padding: 0;
+        width: 100%;
+        height: 80%;
+    }
+    .head{
+        font-size: 2.5rem;
+    }
+    .top-sign{
+        width: 100%;
+        height: 0;
+    }
+    .sign-row{
+        width: 99%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .back{
+        height: 0;
+        width: 0;
+        background-color: black;
+        top:0;
+        left:0;
+    }
+    .chcek{
+        margin: 0;
+        z-index: 2;
+    }
+    #foot{
+        height: 10%;
+        width: 100%;
+    }
+}
+
